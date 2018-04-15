@@ -1,0 +1,26 @@
+/*span{
+	background-color: red;
+}*/
+/*父子选择器/派生选择器*/
+/*div span{
+	background-color: green;
+}*/
+
+/*直接子元素选择器 遍历浏览器用的是自右向左*/
+/*div > em{
+	background-color: green;
+}*/
+
+/*section div ul li a em{
+	background-color: red;
+}*/
+
+/*并列选择器*/
+/*div.demo{
+	background-color: red;
+}*/
+
+/*分组选择器*/
+em,strong,span{
+	background-color: red;
+}
